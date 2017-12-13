@@ -1,0 +1,2 @@
+g++ -std=c++0x -DNDEBUG -g2 -O3 -Wall -Wextra -Wno-unused -static -static-libgcc -static-libstdc++ "Share.cpp" "Llave.cpp" "Archivo.cpp" "Hash.cpp" "Fragmento.cpp" "ServidorSsh.cpp" -o "Share" -lcryptopp
+g++ -std=c++0x -DNDEBUG -g2 -O3 -Wall -Wextra -Wno-unused "Recover.cpp" "Llave.cpp" "Archivo.cpp" "Hash.cpp" "Fragmento.cpp" "ServidorSsh.cpp" -o "Recover" -lcryptopp
